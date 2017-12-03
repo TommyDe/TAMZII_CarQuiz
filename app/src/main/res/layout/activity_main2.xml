@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/wallmenu"
+    android:orientation="vertical"
+    tools:context="com.example.tommy.carquiz.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submitBTN"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false" />
+
+        <GridView
+            android:id="@+id/gridViewAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:columnWidth="40dp"
+            android:horizontalSpacing="2dp"
+            android:numColumns="auto_fit"
+            android:padding="4dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="4dp" />
+
+        <GridView
+            android:id="@+id/gridViewSuggest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:columnWidth="40dp"
+            android:horizontalSpacing="2dp"
+            android:numColumns="auto_fit"
+            android:padding="4dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="4dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Zkontrolovat"
+        android:textColor="@android:color/holo_blue_bright" />
+
+</RelativeLayout>
+
