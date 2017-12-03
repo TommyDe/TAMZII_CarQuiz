@@ -4,4 +4,4 @@ Staňte se i Vy odborníkem v rozpoznávání aut. Hra CarQuiz, Vás zavede do �
 
 **Technické info**
 
-Hra bude bude mít 3 úrovně- Evropské, Japonské a Americké auta, vibrace, nápovědu v podobě doplnění písma, ukládání a možnost zobrazit si info k danému autu.
+Hra bude bude mít 3 úrovně- Evropské, Japonské a Americké auta, vibrace, nápovědu v zobrazení názvu za 2 body nebo zobrazení na webové stránce i s informacemi o daném autě za 4 body, ukládání získaných bodů.
