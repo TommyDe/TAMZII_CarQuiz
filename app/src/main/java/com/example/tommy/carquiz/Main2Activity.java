@@ -57,8 +57,8 @@ public class Main2Activity extends Activity {
             R.drawable.range_rover,
             R.drawable.vw_scirocco,
             R.drawable.fiat_500,
-            R.drawable.alfa_romeo_4c,
-            R.drawable.jaguar_f_type,
+            R.drawable.ferrari_458,
+            R.drawable.bugatti_chiron,
             R.drawable.bmw_m3,
             R.drawable.renault_megane,
             R.drawable.mercedes_sls
